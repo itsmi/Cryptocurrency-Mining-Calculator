@@ -30,7 +30,7 @@ hashpwr_dur = 365 # days
 BTC_price = 11000 # USD
 BTC_return = 0.00000012 # BTC per day and GH/s
 eff_red = 0.4 # relative effective reduction in efficiency per year. Calculated as: 1-eff_red. Therefore: 0: no change; 1: complete shutdown
-hashpwr_price_red = 0.3 # relative reduction in cost of hashpower per year. Calculated as: 1-hashpwr_price_red. Therefore: 0: no change; 1: free; negativ: increase in price
+hashpwr_price_red = 0.3 # relative reduction in cost of hashpower per year. Calculated as: 1-hashpwr_price_red. Therefore: 0: no change; 1: free; negative: increase in price
 
 ' ################################# '
 ' Calculations '
