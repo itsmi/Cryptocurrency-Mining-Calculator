@@ -1,7 +1,6 @@
 # Cryptocurrency-Mining-Calculator
-Computes optimized reinvestment rates for maximum return on investment for providers, auch as Genesis and Hashflare mining.
 
-The Python script optimizes the reinvest strategy for a maximum return on investment based on a given timeframe or end date. The optimizer used is the limited-memory Broyden–Fletcher–Goldfarb–Shanno algorithm (L-BFGS-B).
+The Python script optimizes the reinvest strategy for a maximum return on investment for a given duration or end date. The optimizer used is the limited-memory Broyden–Fletcher–Goldfarb–Shanno algorithm (L-BFGS-B).
 
 Inputs:
 * init_invest: The initial investment in USD.
