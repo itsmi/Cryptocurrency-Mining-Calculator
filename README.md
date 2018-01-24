@@ -8,10 +8,10 @@ Inputs:
 * init_hashpwr_price: THe initial hashpower price in USD / GH/s.
 * invest_dur: The time period for the investment.
 * hashpwr_dur: The duration of the hashpower in days.
-* BTC_price: The current (bit)coin price in USD
-* BTC_return: The return in (bit)coin per day and GH/s
-* eff_red: The relative change in efficiency per year. 0: no change; 1: complete shutdown
-* hashpwr_price_red: The relative change in cost of hashpower per year. 0: no change; 1: free
+* BTC_price: The current (bit)coin price in USD.
+* BTC_return: The return in (bit)coin per day and GH/s.
+* eff_red: The relative change in efficiency per year. 0: no change; 1: complete shutdown.
+* hashpwr_price_red: The relative change in cost of hashpower per year. 0: no change; 1: free.
 
 Conclusions:
 * It is best to reinvest everything up to a certain point and then stop reinvesting.
