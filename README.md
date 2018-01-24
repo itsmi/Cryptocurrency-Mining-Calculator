@@ -1,6 +1,6 @@
 # Cryptocurrency-Mining-Calculator
 
-The Python script optimizes the reinvest strategy for a maximum return on investment for a given duration or end date. The optimizer used is the limited-memory Broyden–Fletcher–Goldfarb–Shanno algorithm (L-BFGS-B).
+The Python 2.7 script optimizes the reinvest strategy for a maximum return on investment for a given duration or end date. The optimizer used is the limited-memory Broyden–Fletcher–Goldfarb–Shanno algorithm (L-BFGS-B).
 
 Inputs:
 * init_invest: The initial investment in USD.
