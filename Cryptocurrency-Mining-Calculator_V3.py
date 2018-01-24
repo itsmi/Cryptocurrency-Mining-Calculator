@@ -70,7 +70,7 @@ def calculationsOpt(opt_reinvest,init_invest,init_hashpwr_price,invest_dur,hashp
     return(-data[-1,5])
 
 ' ################################# '
-' Run '
+' Optimization '
 ' ################################# '
 
 res_1 = minimize(calculationsOpt, np.zeros(invest_dur), method='L-BFGS-B', tol=0.01, bounds=[(0,1)]*invest_dur, args=(init_invest,init_hashpwr_price,invest_dur,hashpwr_dur,BTC_price,BTC_return,eff_red,hashpwr_price_red))
