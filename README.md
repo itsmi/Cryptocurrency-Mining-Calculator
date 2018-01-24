@@ -13,8 +13,8 @@ Inputs:
 * hashpwr_price_red: The relative change in cost of hashpower per year. 0: no change; 1: free.
 
 Conclusions:
-* It is best to reinvest everything up to a certain point and then stop reinvesting.
-* The time to stop is not necessarily one year before the optimized period. This means that hashpower may be left past the time period optimized for, further increasing the return on investment.
+* It is best to reinvest everything up to a certain point and then stop reinvesting completely.
+* The time before stopping is not necessarily one year before the optimized period. This means that hashpower may be left past the time period optimized for, further increasing the return on investment.
 
 Feel free to contribute and let me know of any bugs or errors in the code. Thank you!
 
