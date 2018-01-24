@@ -20,15 +20,6 @@ Conclusions:
 Feel free to contribute and let me know of any bugs or errors in the code. Thank you!
 
 Example:
-init_invest = 550 # USD
-init_hashpwr_price = 0.22 # USD / GH/s
-invest_dur = 2 * 365 # days
-hashpwr_dur = 365 # days
-BTC_price = 11000 # USD
-BTC_return = 0.00000012 # BTC per day and GH/s
-eff_red = 0.4 # relative effective reduction in efficiency per year. 0: no change; 1: complete shutdown
-hashpwr_price_red = 0.3 # relative reduction in cost of hashpower per year. 0: no change; 1: free
-
 * init_invest: 550 # USD
 * init_hashpwr_price: 0.22 # USD / GH/s
 * invest_dur: 2 * 365 # days
