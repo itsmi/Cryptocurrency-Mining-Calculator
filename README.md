@@ -10,7 +10,7 @@ Inputs:
 * BTC_price: The current (bit)coin price in USD.
 * BTC_return: The return in (bit)coin per day and GH/s.
 * eff_red: The relative change in efficiency per year. Calculated as: 1-eff_red. Therefore: 0: no change; 1: complete shutdown
-* hashpwr_price_red: The relative change in cost of hashpower per year. Calculated as: 1-hashpwr_price_red. Therefore: 0: no change; 1: free; negativ: increase in price
+* hashpwr_price_red: The relative change in cost of hashpower per year. Calculated as: 1-hashpwr_price_red. Therefore: 0: no change; 1: free; negative: increase in price
 
 Conclusions:
 * It is best to reinvest everything up to a certain point and then stop reinvesting completely.
