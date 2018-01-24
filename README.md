@@ -5,7 +5,7 @@ The Python script optimizes the reinvest strategy for a maximum return on invest
 
 Inputs:
 * init_invest: The initial investment in USD.
-* init_hashpwr_price: THe initial hashpower price in USD / GH/s.
+* init_hashpwr_price: The initial hashpower price in USD / GH/s.
 * invest_dur: The time period for the investment.
 * hashpwr_dur: The duration of the hashpower in days.
 * BTC_price: The current (bit)coin price in USD.
@@ -18,5 +18,32 @@ Conclusions:
 * The time to stop is not necessarily one year before the optimized period. This means that hashpower may be left past the time period optimized for, further increasing the return on investment.
 
 Feel free to contribute and let me know of any bugs or errors in the code. Thank you!
+
+Example:
+init_invest = 550 # USD
+init_hashpwr_price = 0.22 # USD / GH/s
+invest_dur = 2 * 365 # days
+hashpwr_dur = 365 # days
+BTC_price = 11000 # USD
+BTC_return = 0.00000012 # BTC per day and GH/s
+eff_red = 0.4 # relative effective reduction in efficiency per year. 0: no change; 1: complete shutdown
+hashpwr_price_red = 0.3 # relative reduction in cost of hashpower per year. 0: no change; 1: free
+
+* init_invest: 550 # USD
+* init_hashpwr_price: 0.22 # USD / GH/s
+* invest_dur: 2 * 365 # days
+* hashpwr_dur: 365 # days
+* BTC_price: 11000 # USD
+* BTC_return: 0.00000012 # BTC per day and GH/s
+* eff_red: 0.4
+* hashpwr_price_red: 0.3
+
+![alt text](https://github.com/itsmi/Cryptocurrency-Mining-Calculator/blob/master/example/1_reinvest_vs_day.png)
+
+![alt text](https://github.com/itsmi/Cryptocurrency-Mining-Calculator/blob/master/example/2_hashpower_vs_day.png)
+
+![alt text](https://github.com/itsmi/Cryptocurrency-Mining-Calculator/blob/master/example/3_USD_per_day_vs_day.png)
+
+![alt text](https://github.com/itsmi/Cryptocurrency-Mining-Calculator/blob/master/example/4_USD_accumuated_vs_day.png)
 
 
