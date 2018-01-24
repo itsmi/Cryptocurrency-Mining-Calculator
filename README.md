@@ -7,4 +7,4 @@ Conclusions:
 * It is best to reinvest everything up to a certain point and then stop reinvesting.
 * The time to stop is not necessarily one year before the optimized period. This means that hashpower may be left past the time period optimized for, further increasing the return on investment.
 
-Please feel free to contribute and let me know of any bugs or errors in the code. Thank you!
+Feel free to contribute and let me know of any bugs or errors in the code. Thank you!
