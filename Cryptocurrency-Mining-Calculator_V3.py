@@ -112,9 +112,9 @@ plt.xlabel('Day [#]')
 ' Prints '
 ' ################################# '
 
-print 'Optimization function evaluations: ' + repr(res_1.nfev) 
-print 'Total return (USD): ' + repr(data[-1,5])
-print 'Remaining hashpower after the period optimized for (GH/s): ' + repr(data[-1,1])
+print('Optimization function evaluations: %d' % res_1.nfev)
+print('Total return (USD): %d' % data[-1,5])
+print('Remaining hashpower after the period optimized for (GH/s): %d' % data[-1,1])
 
 
 
